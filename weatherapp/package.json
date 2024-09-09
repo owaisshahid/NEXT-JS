@@ -1,5 +1,5 @@
 {
-  "name": "owais1",
+  "name": "weatherapp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "next": "14.2.7",
+    "next": "14.2.8",
     "react": "^18",
     "react-dom": "^18"
   },

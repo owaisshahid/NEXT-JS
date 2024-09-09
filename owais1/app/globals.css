@@ -1,32 +1,51 @@
-/* app/global.css */
-
-body {
-  font-family: Arial, sans-serif;
+/* Reset some default styles */
+* {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  box-sizing: border-box;
 }
 
-.portfolio-container {
-  max-width: 900px;
-  margin: 0 auto;
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
   padding: 20px;
 }
 
-header {
-  text-align: center;
-  background-color: #282c34;
-  color: white;
-  padding: 20px 0;
+.portfolio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  color: #ffffff;
 }
 
-h1, h2, h3 {
-  margin: 20px 0;
+.hero h2 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #ffdd57;
+  font-weight: 500;
+  border-bottom: 2px solid #ffdd57;
+  padding-bottom: 10px;
 }
 
 ul {
@@ -35,11 +54,24 @@ ul {
 }
 
 li {
-  background: #fff;
+  background: #2a2a2a;
   margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
+  padding: 15px;
+  border: 1px solid #333;
   border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+li strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #ffdd57;
+  margin-bottom: 5px;
 }
 
 footer {
@@ -47,5 +79,28 @@ footer {
   padding: 20px;
   background-color: #282c34;
   color: white;
-  margin-top: 40px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-container {
+    padding: 20px;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  li {
+    padding: 10px;
+  }
 }
