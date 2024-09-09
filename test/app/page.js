@@ -1,12 +1,20 @@
-import Image from "next/image";
+
+
+
+
 
 export default function Home() {
   return (
-    <main>
-      <h1>MY LEARNING PLATFORM </h1>
+   
+   
+    <div>
   
-    </main>
+     
+    
+    <div className="container mt-5">
+      <h1 className="display-4">Home Page</h1>
+      <p className="lead">Welcome to the Home Page of MyWebsite.</p>
+    </div>
+    </div>
   );
 }
-
-
