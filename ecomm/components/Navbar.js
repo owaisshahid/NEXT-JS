@@ -1,10 +1,18 @@
+import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-yellow">
       <div className="container">
-        <Link href="/" className="navbar-brand">My Shop</Link>
+        <Link href="/" className="navbar-brand">
+          <div className="navbar-logo-container">
+            {/* Include the Next.js Image component */}
+            <Image src="/Logo.png" alt="Logo" width={60} height={50} className="navbar-logo" />
+            <span className="navbar-brand-text"></span>
+          </div>
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -24,6 +32,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

@@ -1,0 +1,27 @@
+// {
+//   title: "11 Shades of Grey",
+//   description: "Explore our premium collection of 11 shades of grey for gentlemen. Each shade is expertly chosen for its versatility and style, offering both comfort and sophistication. Perfect for any occasion, these high-quality pieces enhance your wardrobe with timeless elegance.",
+//   price: "4000PKR",
+//   imgSrc: "/card 3.jpg",
+// },
+// {
+//   title: "Man in Black",
+//   description: "Explore our top-quality black collection for gentlemen, featuring stylish and durable pieces designed for elegance and versatility. Perfect for both formal and everyday wear, these timeless essentials elevate your wardrobe with sophistication and comfort.",
+//   price: "2500PKR",
+//   imgSrc: "/card 4.jpg",
+// },
+
+// {
+//   title: "Black Titanium",
+//   description: "Top Quality Black Titanium Available for Gentlemen.",
+//   originalPrice: "1000PKR",
+//   salePrice: "500PKR",
+//   imgSrc: "/B3.webp",
+// },
+// {
+//   title: "The Boys",
+//   description: "Top Quality The Boys Collections Available for The Boys.",
+//   originalPrice: "300PKR",
+//   salePrice: "150PKR",
+//   imgSrc: "/B4.webp",
+// },
