@@ -9,6 +9,7 @@ export default function RootLayout({ children }) {
       <body>
         <CartProvider>
           <Navbar />
+       
           {children}
         </CartProvider>
       </body>

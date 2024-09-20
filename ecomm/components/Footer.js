@@ -6,7 +6,7 @@ const Footer = () => (
       <a href="/">
         <svg className="bi" width="30" height="24"><use xlinkHref="#bootstrap" /></svg>
       </a>
-      <span className="text">&copy; MY SHOP</span>
+      <span className="text">&copy; MY SHOP 2024 </span>
     </div>
     <ul className="socialIcons">
       <li><a href="#"><svg className="bi" width="24" height="24"><use xlinkHref="#twitter" /></svg></a></li>
